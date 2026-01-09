@@ -69,6 +69,9 @@ Every several seconds, the application pretends to watch a particular stream by 
 
 If you'd be interested in running the latest master from source or building your own executable, see the wiki page explaining how to do so: https://github.com/DevilXD/TwitchDropsMiner/wiki/Setting-up-the-environment,-building-and-running
 
+> [!NOTE]  
+> This trimmed fork keeps only the runtime source and resources, omitting packaging/build scripts to stay focused on the core miner functionality.
+
 ### Support
 
 <div align="center">
