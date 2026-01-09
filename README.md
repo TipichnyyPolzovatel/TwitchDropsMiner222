@@ -25,6 +25,12 @@ Every several seconds, the application pretends to watch a particular stream by 
 - If you wish to keep the miner occupied with mining anything it can, beyond what you've selected via the Priority List, you can use the Priority Mode setting to specify the mining order for the rest of the games.
 - Make sure to link your Twitch account to game accounts on the [campaigns page](https://www.twitch.tv/drops/campaigns), to enable more games to be mined.
 
+### Quick start (from source):
+
+1. Install Python 3.10+.
+2. Install dependencies: `python -m pip install -r requirements.txt`
+3. Run the miner: `python main.py`
+
 ### Pictures:
 
 ![Main](https://user-images.githubusercontent.com/4180725/164298155-c0880ad7-6423-4419-8d73-f3c053730a1b.png)
@@ -68,6 +74,9 @@ Every several seconds, the application pretends to watch a particular stream by 
 ### Advanced Usage:
 
 If you'd be interested in running the latest master from source or building your own executable, see the wiki page explaining how to do so: https://github.com/DevilXD/TwitchDropsMiner/wiki/Setting-up-the-environment,-building-and-running
+
+> [!NOTE]  
+> This trimmed fork keeps only the runtime source and resources, omitting packaging/build scripts to stay focused on the core miner functionality.
 
 ### Support
 
